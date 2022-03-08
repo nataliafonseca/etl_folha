@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  folhadb:
+    image: postgres
+    container_name: folhadb
+    restart: on-failure
+    ports:
+      - 5433:5432
+    environment:
+      - TZ=America/Fortaleza
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=folhadb
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
