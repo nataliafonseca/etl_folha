@@ -371,7 +371,7 @@ CREATE TABLE folhadw."dm_setores" (
     "cod_setor" integer NOT NULL,
     "dsc_unidade" character varying(100) NOT NULL,
     "cidade_unidade" character varying(100) NOT NULL,
-    "uf_unidade" character(1) NOT NULL,
+    "uf_unidade" character varying(2) NOT NULL,
     "dsc_setor" character varying(100) NOT NULL
 );
 
