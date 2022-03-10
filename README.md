@@ -48,3 +48,7 @@ python script/script.py
 
 ## Notebook
 Para uma melhor visualização do passo a passo do script, há o arquivo `script/notebook.ipynb`
+
+
+---
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nataliafonseca/etl_folha/blob/main/script/notebook.ipynb)
