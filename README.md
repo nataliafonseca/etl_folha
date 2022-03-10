@@ -45,3 +45,6 @@ Por fim, executa-se o arquivo do script:
 ```
 python script/script.py
 ```
+
+## Notebook
+Para uma melhor visualização do passo a passo do script, há o arquivo `script/notebook.ipynb`
